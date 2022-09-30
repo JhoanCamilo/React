@@ -1,0 +1,61 @@
+.Container{
+    background-color: #4d0491;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Container h1{
+    font-weight: lighter;
+    background-color: #c299dc;
+    width: 300px;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 0 5px 5px 0;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+.TaskCard{
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Task-true{
+    background-color: #83e783;
+}
+.Task-false{
+    background-color: #e46c6c;
+}
+
+.CardButton{
+    height: 30px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    border: none;
+    transition: .5s;
+}
+.Pendiente{
+    background-color: #e46c6c;
+}
+.Realizado{
+    background-color: #83e783;
+}
+.Pendiente:hover{
+    background-color: #e44949;
+    transition: .5s;
+}
+.Realizado:hover{
+    background-color: #4ae24a;
+    transition: .5s;
+}
